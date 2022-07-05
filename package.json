@@ -1,9 +1,9 @@
 {
   "name": "express-ts-gen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A prepackaged express app project generator with typescript support",
   "bin": {
-    "express-ts-gen": "bin/express-ts-gen.js"
+    "express-ts-gen": "bin/cli.js"
   },
   "main": "index.js",
   "scripts": {
