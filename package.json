@@ -1,0 +1,34 @@
+{
+  "name": "randomizer",
+  "version": "1.0.0",
+  "description": "A fake data generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node index.ts",
+    "watch": "tsnodemon -x 'node index.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWisePigeon/randomizer.git"
+  },
+  "keywords": [
+    "fake data generator",
+    "dummy data generator",
+    "data genrator"
+  ],
+  "author": "TheWisePigeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheWisePigeon/randomizer/issues"
+  },
+  "homepage": "https://github.com/TheWisePigeon/randomizer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "ts-node": "^10.8.2",
+    "ts-node-dev": "^2.0.0",
+    "tsnodemon": "^1.2.2",
+    "typescript": "^4.7.4"
+  }
+}
